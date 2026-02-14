@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+dist/
+.next/
+out/
+.cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build Artifacts
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Bun/Lockfiles
+bun.lockb
+package-lock.json
+yarn.lock
